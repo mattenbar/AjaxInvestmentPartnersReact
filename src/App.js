@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/navbar'
 import AboutUs from './components/aboutUs.js'
 import Capabilities from './components/capabilities'
+import Leadership from './components/leadership'
+import Footer from './components/footer'
 
 
 
@@ -10,10 +12,11 @@ import Capabilities from './components/capabilities'
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar className="navbar"/>
       <AboutUs />
       <Capabilities className="capabilities" />
-      
+      <Leadership className="leadership" />
+      <Footer className="footer" />
     </div>
   );
 }

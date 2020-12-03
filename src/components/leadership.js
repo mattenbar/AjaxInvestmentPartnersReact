@@ -2,10 +2,17 @@ import React from 'react'
 
 class Leadership extends React.Component{
 
+  state = {
+    bio: "short"
+  }
+
+  
+
   render(){
     return(
-      <div>
-        
+      <div className="leadership">
+      <h3>LEADERSHIP</h3>
+
       </div>
     )
   }

@@ -1,3 +1,14 @@
+.navbar{
+  background-image: url("images/AjaxWebsiteTopImage.jpg");
+  background-repeat: no-repeat;  
+  background-size: 100% 100%;
+}
+
+.nabar h3{
+  text-align: center;
+  font-size: 2vw;
+}
+
 .about h3{
   text-align: center;
   font-size: 2vw;
@@ -30,6 +41,9 @@ span {
 .capabilities{
   background-color: rgb(64, 151, 257);
   color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 .capabilities h3{
@@ -54,4 +68,9 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.leadership h3{
+  text-align: center;
+  font-size: 2vw;
 }
