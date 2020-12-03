@@ -34,7 +34,10 @@ class Capabilities extends Component {
           {capabilitiesList}
           <br/>
         </p>
-        <img width= "100%" src={BlueMountainBottomImg} alt="BlueMountainImg"/>
+        <div className="capabilities-img-container">
+          <img width= "100%" src={BlueMountainBottomImg} alt="BlueMountainImg"/>
+          <div className="centered">WE SEED GREAT IDEAS FROM PROVEN LEADERS. <br/><br/> WE ACCELERATE YOUR GROWTH TRAJECTORY. <br/><br/> WE HELP DRIVE YOUR FUTURE.</div>
+        </div>
       </div>
     )
   }
