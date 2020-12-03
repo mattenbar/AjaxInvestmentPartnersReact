@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
-import Logo from '../images/AJAXLOGO.svg'
+import Logo from '../AJAXLOGO.svg'
 
 
 class NavBar extends React.Component{
