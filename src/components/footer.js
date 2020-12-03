@@ -5,10 +5,18 @@ class Footer extends React.Component{
   render(){
     return(
       <div className="footer">
-      <br />
-      CONTACT US
-
-      </div>
+        <br />
+        <h3>CONTACT US</h3>
+        <p>
+          <a href={"mailto:adam@ajax-partners.com"} rel="noreferrer" target="_blank">adam@ajax-partners.com</a>
+          <br />
+          917.685.2273
+          <br />
+          4400 Biscayne Blvd.11th floor
+          <br />
+          Miami, FL 33137
+        </p>
+      </div> 
     )
   }
 

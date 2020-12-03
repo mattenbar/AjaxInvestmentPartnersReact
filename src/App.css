@@ -17,6 +17,7 @@
 .about p{
   padding-left: 5%;
   font-size: 2vw;
+  padding-right: 3%;
 }
 
 span {
@@ -41,9 +42,10 @@ span {
 .capabilities{
   background-color: rgb(64, 151, 257);
   color: white;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  border-bottom: 0;
+  
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  border-bottom: 0%;
 }
 
 .capabilities h3{
@@ -53,6 +55,7 @@ span {
 
 .capabilities p{
   padding-left: 5%;
+  padding-right: 3%;
   font-size: 2vw;
 }
 
@@ -61,6 +64,9 @@ span {
   text-align: center;
   color: white;
   font-size: 2vw;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  border-bottom: 0%;
 }
 
 .centered {
@@ -70,7 +76,34 @@ span {
   transform: translate(-50%, -50%);
 }
 
+.leadership{
+  padding-left: 5%;
+  padding-right: 3%;
+  font-size: 2vw;
+}
+
 .leadership h3{
   text-align: center;
   font-size: 2vw;
+}
+
+.Learn{
+  color: rgb(64, 151, 257);
+  cursor: pointer;
+}
+
+.footer{
+  padding-left: 5%;
+  font-size: 1.5vw;
+  background-color: rgb(64, 151, 257);
+  color: white;
+  padding-bottom: 2%;
+}
+
+.footer a:link{
+  color: white;
+}
+
+.footer a:visited{
+  color: white;
 }
