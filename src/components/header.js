@@ -12,7 +12,7 @@ class Header extends React.Component{
   render(){
     return(
       <div className="navbar">
-      <Container>
+      
       <Row>
       <Navbar className="nav">
         <Navbar.Brand href="#home"><img
@@ -23,27 +23,24 @@ class Header extends React.Component{
           /></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            <a href="#about">ABOUT US     </a>
-            <a href="#capabilities">CAPABILITIES    </a>
-            <a href="#leadership">LEADERSHIP    </a>
-            <a href="#footer">CONTACT US    </a>
-            <a href="#capabilities"></a>
+          <Navbar.Text style={{display: "flex"}}>
+            <a href="#about">ABOUT&nbsp;US&nbsp;</a>
+            <a href="#capabilities">&nbsp;CAPABILITIES&nbsp;</a>
+            <a href="#leadership">&nbsp;LEADERSHIP&nbsp;</a>
+            <a href="#footer"><button className="contact-button" href="#footer">CONTACT&nbsp;US</button></a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
       </Row>
-      <Row>
-        <h3 >
+      <Row className="alignCenter" style={{textAlign: "center"}}> 
+        <h3  >
           ALIGNING FINANCIAL AND INTELLECTUAL CAPITAL, STRATEGIC 
-          <br/><br/>
+          <br/>
           RELATIONSHIPS AND TRANSFORMATIONAL GROWTH STRATEGIES
-          <br /> <br/>
+          <br />
           FOR FINANCIAL SERVICES BUSINESSES
         </h3> 
       </Row>
-      </Container>
-      
     </div>
     )
   }
