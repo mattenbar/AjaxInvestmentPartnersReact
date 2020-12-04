@@ -4,7 +4,7 @@ class Footer extends React.Component{
 
   render(){
     return(
-      <div className="footer">
+      <div className="footer" id="footer">
         <br />
         <h3>CONTACT US</h3>
         <p>

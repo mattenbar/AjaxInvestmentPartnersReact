@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import BlueMountainBottomImg from '../images/BlueMountainBottomImg.jpg'
 
 class Capabilities extends Component {
 
@@ -17,7 +16,7 @@ class Capabilities extends Component {
     )
 
     return(
-      <div class="capabilities" id="capabilities">
+      <div className="capabilities" id="capabilities">
         <br/>
         <h3>CAPABILITIES</h3>
         <p>
@@ -25,19 +24,16 @@ class Capabilities extends Component {
           <br/>
           together the right capital structure with the right strategic plan.
         </p>
-        <span class="blackLine"
-          style={{"border-bottom": "2px solid black"}}></span>
+        <span className="blackLine"
+          style={{"borderBottom": "2px solid black"}}></span>
         <p>
           Through our seasoned internal team and in collaboration with long standing strategic partners, 
           <br/>
           our capabilities encompass:
-          {capabilitiesList}
+          
           <br/>
         </p>
-        <div className="capabilities-img-container">
-          <img width="100%" src={BlueMountainBottomImg} alt="BlueMountainImg"/>
-          <div className="centered">WE SEED GREAT IDEAS FROM PROVEN LEADERS. <br/><br/> WE ACCELERATE YOUR GROWTH TRAJECTORY. <br/><br/> WE HELP DRIVE YOUR FUTURE.</div>
-        </div>
+        {capabilitiesList}
       </div>
     )
   }

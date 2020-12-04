@@ -4,17 +4,29 @@
   background-size: 100% 100%;
 }
 
-.nabar h3{
+.navbar h3{
   text-align: center;
   font-size: 2vw;
+}
+
+.nav{
+  background-image: none;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -48vw;
+  /* margin-right: -50vw; */
 }
 
 .about h3{
   text-align: center;
   font-size: 2vw;
+  font-family: "Normal-Bold";
 }
 
 .about p{
+  font-family: "Normal-Regular";
   padding-left: 5%;
   font-size: 2vw;
   padding-right: 3%;
@@ -42,7 +54,6 @@ span {
 .capabilities{
   background-color: rgb(64, 151, 257);
   color: white;
-  
   padding-bottom: 0%;
   margin-bottom: 0%;
   border-bottom: 0%;
@@ -51,22 +62,36 @@ span {
 .capabilities h3{
   text-align: center;
   font-size: 2vw;
+  font-family: "Normal-ExtraBold";
+  padding: 1.5%;
 }
 
 .capabilities p{
   padding-left: 5%;
   padding-right: 3%;
-  font-size: 2vw;
+  font-size: 1.9vw;
+  font-family: "Normal-Regular";
+}
+
+.capabilities ul{
+  padding-left: 8%;
+  padding-right: 3%;
+  font-size: 1.5vw;
+  font-family: "Normal-Regular";
+  padding-bottom: 2%;
 }
 
 .capabilities-img-container {
   position: relative;
   text-align: center;
   color: white;
-  font-size: 2vw;
+  font-size: 1.9vw;
   padding-bottom: 0%;
   margin-bottom: 0%;
   border-bottom: 0%;
+  background-size: 100% 100%;
+  background-image: url("images/BlueMountainBottomImg.jpg");
+  font-family: "Normal-ExtraBold";
 }
 
 .centered {
@@ -85,6 +110,16 @@ span {
 .leadership h3{
   text-align: center;
   font-size: 2vw;
+}
+
+.leadership p{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.leadership img{
+  float: left;
+  padding-right: 2%;
 }
 
 .Learn{
@@ -106,4 +141,27 @@ span {
 
 .footer a:visited{
   color: white;
+}
+
+@font-face {
+  font-family: 'Normal-Bold';
+  src: local('Normal-Bold'), url(./fonts/Normal-Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Normal-ExtraBold';
+  src: local('Normal-ExtraBold'), url(./fonts/Normal-ExtraBold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Normal-ExtraLight';
+  src: local('Normal-ExtraLight'), url(./fonts/Normal-ExtraLight.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Normal-Light';
+  src: local('Normal-Light'), url(./fonts/Normal-Light.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Normal-Regular';
+  src: local('Normal-Regular'), url(./fonts/Normal-Regular.otf) format('truetype');
 }

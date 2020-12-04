@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/navbar'
+import Header from './components/header'
 import AboutUs from './components/aboutUs.js'
 import Capabilities from './components/capabilities'
 import Leadership from './components/leadership'
 import Footer from './components/footer'
+import BlueMountains from './components/blueMountains'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -12,9 +14,10 @@ import Footer from './components/footer'
 function App() {
   return (
     <div className="App">
-      <NavBar className="navbar"/>
+      <Header className="header"/>
       <AboutUs />
       <Capabilities className="capabilities" />
+      <BlueMountains />
       <Leadership className="leadership" />
       <Footer className="footer" />
     </div>
