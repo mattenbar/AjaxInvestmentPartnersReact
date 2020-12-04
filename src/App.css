@@ -4,12 +4,13 @@
   background-size: 100% 100%;
   align-content: center;
   width: 100%;
+  
 }
 
 a{
   padding-top: 1%;
   font-size: 1.4vw;
-  font-family: "Normal-light";
+  font-family: "Normal-Regular";
 }
 
 button{
@@ -23,10 +24,10 @@ button{
 
 .navbar h3{
   text-align: center;
-  font-size: 1.7vw;
+  font-size: 1.9vw;
   padding-top: 5%;
   padding-bottom: 15%;
-  font-family: "Normal-Light" ;
+  font-family: "Normal-Regular" ;
 }
 
 .alignCenter{
