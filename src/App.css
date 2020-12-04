@@ -8,6 +8,8 @@
 
 a{
   padding-top: 1%;
+  font-family: "Normal-ExtraBold";
+  font-size: 1.4vw;
 }
 
 button{
@@ -21,9 +23,10 @@ button{
 
 .navbar h3{
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 1.7vw;
   padding-top: 5%;
   padding-bottom: 15%;
+  font-family: "Normal-Light" ;
 }
 
 .alignCenter{
@@ -43,7 +46,7 @@ button{
 .about h3{
   text-align: center;
   font-size: 2vw;
-  font-family: "Normal-Bold";
+  font-family: "Normal-ExtraBold";
 }
 
 .about p{
@@ -99,6 +102,14 @@ span {
   padding-bottom: 2%;
 }
 
+p{
+  font-family: "Normal-Regular";
+}
+
+h3{
+  font-family: "Normal-ExtraBold";
+}
+
 .capabilities ul{
   padding-left: 8%;
   padding-right: 3%;
@@ -127,6 +138,8 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Normal-ExtraBold";
+  font-size: 1.8vw;
 }
 
 .leadership{
@@ -161,6 +174,11 @@ span {
   background-color: rgb(64, 151, 257);
   color: white;
   padding-bottom: 2%;
+}
+
+.footer h3{
+  font-size: 2.2vw;
+  font-family: "Normal-Regular" ;
 }
 
 .footer a:link{

@@ -1,9 +1,9 @@
 import React from 'react'
 import Logo from '../images/logo.png'
-import Nav from 'react-bootstrap/Nav'
+
 import Navbar from 'react-bootstrap/Navbar'
 import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
+
 
 
 
@@ -17,7 +17,7 @@ class Header extends React.Component{
       <Navbar className="nav">
         <Navbar.Brand href="#home"><img
             src={Logo}
-            width="20%"
+            width="25%"
             className="d-inline-block align-top"
             alt="AJAX LOGO"
           /></Navbar.Brand>
@@ -34,11 +34,11 @@ class Header extends React.Component{
       </Row>
       <Row className="alignCenter" style={{textAlign: "center"}}> 
         <h3  >
-          ALIGNING FINANCIAL AND INTELLECTUAL CAPITAL, STRATEGIC 
+          ALIGNING&nbsp;&nbsp;FINANCIAL&nbsp;&nbsp;AND&nbsp;&nbsp;INTELLECTUAL&nbsp;&nbsp;CAPITAL,&nbsp;&nbsp;STRATEGIC 
           <br/>
-          RELATIONSHIPS AND TRANSFORMATIONAL GROWTH STRATEGIES
+          RELATIONSHIPS&nbsp;&nbsp;AND&nbsp;&nbsp;TRANSFORMATIONAL&nbsp;&nbsp;GROWTH&nbsp;&nbsp;STRATEGIES
           <br />
-          FOR FINANCIAL SERVICES BUSINESSES
+          FOR&nbsp;&nbsp;FINANCIAL&nbsp;&nbsp;SERVICES&nbsp;&nbsp;BUSINESSES
         </h3> 
       </Row>
     </div>
