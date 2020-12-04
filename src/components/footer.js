@@ -8,7 +8,7 @@ class Footer extends React.Component{
         <br />
         <h3>CONTACT US</h3>
         <p>
-          <a href={"mailto:adam@ajax-partners.com"} rel="noreferrer" target="_blank">adam@ajax-partners.com</a>
+          <a className="footer-a" href={"mailto:adam@ajax-partners.com"} rel="noreferrer" target="_blank">adam@ajax-partners.com</a>
           <br />
           917.685.2273
           <br />

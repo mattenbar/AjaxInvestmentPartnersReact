@@ -24,9 +24,9 @@ class Header extends React.Component{
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text style={{display: "flex"}}>
-            <a href="#about">ABOUT&nbsp;US&nbsp;</a>
-            <a href="#capabilities">&nbsp;CAPABILITIES&nbsp;</a>
-            <a href="#leadership">&nbsp;LEADERSHIP&nbsp;</a>
+            <a href="#about">ABOUT&nbsp;US&nbsp;&nbsp;</a>
+            <a href="#capabilities">&nbsp;CAPABILITIES&nbsp;&nbsp;</a>
+            <a href="#leadership">&nbsp;LEADERSHIP&nbsp;&nbsp;</a>
             <a href="#footer"><button className="contact-button" href="#footer">CONTACT&nbsp;US</button></a>
           </Navbar.Text>
         </Navbar.Collapse>
