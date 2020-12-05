@@ -1,6 +1,5 @@
 {
   "name": "ajax_investment_partners_react",
-  // "homepage": "www.ajax-partners.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
