@@ -10,7 +10,7 @@
 a{
   padding-top: 1%;
   font-size: 1.4vw;
-  font-family: "Normal-Regular";
+  font-family: 'Hind Siliguri';
 }
 
 button{
@@ -27,7 +27,7 @@ button{
   font-size: 1.9vw;
   padding-top: 5%;
   padding-bottom: 15%;
-  font-family: "Normal-Regular" ;
+  font-family: 'Hind Siliguri' ;
 }
 
 .alignCenter{
@@ -47,12 +47,13 @@ button{
 .about h3{
   text-align: center;
   font-size: 2vw;
-  font-family: "Normal-ExtraBold";
+  font-family: 'Hind Siliguri';
+  font-weight: 600;
 }
 
 .about p{
   
-  font-family: "Normal-Regular";
+  font-family: 'Hind Siliguri';
   padding-left: 5%;
   font-size: 2vw;
   padding-right: 3%;
@@ -90,7 +91,8 @@ span {
 .capabilities h3{
   text-align: center;
   font-size: 2vw;
-  font-family: "Normal-ExtraBold";
+  font-family: 'Hind Siliguri';
+  font-weight: 600;
   padding: 1.5%;
 }
 
@@ -98,24 +100,25 @@ span {
   padding-left: 5%;
   padding-right: 3%;
   font-size: 1.9vw;
-  font-family: "Normal-Regular";
+  font-family: 'Hind Siliguri';
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 p{
-  font-family: "Normal-Regular";
+  font-family: 'Hind Siliguri';
 }
 
 h3{
-  font-family: "Normal-ExtraBold";
+  font-family: 'Hind Siliguri';
+  font-weight: 600;
 }
 
 .capabilities ul{
   padding-left: 8%;
   padding-right: 3%;
   font-size: 1.5vw;
-  font-family: "Normal-Regular";
+  font-family: 'Hind Siliguri';
   padding-bottom: 2%;
   margin-bottom: 0;
   border-bottom: 0;
@@ -131,7 +134,8 @@ h3{
   border-bottom: 0%;
   background-size: 100% 100%;
   background-image: url("images/BlueMountainBottomImg.jpg");
-  font-family: "Normal-ExtraBold";
+  font-family: 'Hind Siliguri';
+  font-weight: 600;
 }
 
 .centered {
@@ -139,7 +143,8 @@ h3{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Normal-ExtraBold";
+  font-family: 'Hind Siliguri';
+  font-weight: 600;
   font-size: 1.8vw;
 }
 
@@ -175,11 +180,11 @@ h3{
   background-color: rgb(64, 151, 257);
   color: white;
   padding-bottom: 2%;
-  font-family: "Normal-Regular"; 
+  font-family: 'Hind Siliguri'; 
 }
 
 .footer-a{
-  font-family: "Normal-Regular"; 
+  font-family: 'Hind Siliguri'; 
   font-size: 1.8vw;
 }
 
@@ -196,7 +201,7 @@ h3{
   color: white;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Normal-Bold';
   src: local('Normal-Bold'), url("./fonts/Normal-Bold.otf") format('truetype');
 }
@@ -217,4 +222,4 @@ h3{
 @font-face {
   font-family: 'Normal-Regular';
   src: local('Normal-Regular'), url("./fonts/Normal-Regular.otf") format('truetype');
-}
+} */

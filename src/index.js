@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './fonts/Normal-Regular.otf'
-import './fonts/Normal-ExtraBold.otf'
+// import './fonts/Normal-Regular.otf'
+// import './fonts/Normal-ExtraBold.otf'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
