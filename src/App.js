@@ -1,4 +1,6 @@
 import React from 'react';
+import './fonts/Normal-Regular.ttf'
+import './fonts/Normal-ExtraBold.ttf'
 import './App.css';
 import Header from './components/header'
 import AboutUs from './components/aboutUs.js'
